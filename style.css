@@ -1,6 +1,9 @@
-tittle {
-    display: top;
-    font-weight: bold;
+.title {
+  position: absolute;
+  top: 0; /* Align to the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+};
     
 }
 body {
@@ -8,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: Blue
+    background-color: light-Blue
 }
 
 .header_text {
@@ -17,7 +20,8 @@ body {
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0px
+    colour: Red;
 }
 
 .gif_container {
