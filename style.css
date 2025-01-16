@@ -1,27 +1,19 @@
-.title {
-  position: absolute;
-  top: 0; /* Align to the top */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%);
-};
-    
-}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: light-Blue
+    background-color: white;
 }
 
 .header_text {
     font-family: 'Nunito';
     font-size: 50px;
     font-weight: bold;
+    color: Red;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 0px
-    colour: Red;
+    margin-bottom: 0px;
 }
 
 .gif_container {
