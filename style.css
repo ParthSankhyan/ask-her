@@ -1,8 +1,4 @@
-tittle {
-    text-align: ceter;
-   font-weight: bold;
-    Colour: Red;
-body {
+.body {
     display: flex;
     justify-content: center;
     align-items: center;
